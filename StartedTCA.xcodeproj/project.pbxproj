@@ -17,6 +17,7 @@
 		5E142F932B3D49A7007B2A0F /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 5E142F922B3D49A7007B2A0F /* ComposableArchitecture */; };
 		5E142F952B3D4A4A007B2A0F /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E142F942B3D4A4A007B2A0F /* CounterFeature.swift */; };
 		5E661D802C14AC7C00FB8510 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E661D7F2C14AC7C00FB8510 /* CounterView.swift */; };
+		5E7F14FF2C15C1DD00DF7316 /* CounterFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7F14FE2C15C1DD00DF7316 /* CounterFeatureTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		5E142F942B3D4A4A007B2A0F /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
 		5E661D7F2C14AC7C00FB8510 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		5E7F14FD2C14C7B800DF7316 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5E7F14FE2C15C1DD00DF7316 /* CounterFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeatureTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				5E142F782B3D48CF007B2A0F /* StartedTCATests.swift */,
+				5E7F14FE2C15C1DD00DF7316 /* CounterFeatureTests.swift */,
 			);
 			path = StartedTCATests;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E142F792B3D48CF007B2A0F /* StartedTCATests.swift in Sources */,
+				5E7F14FF2C15C1DD00DF7316 /* CounterFeatureTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
