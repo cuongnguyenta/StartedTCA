@@ -25,4 +25,22 @@ final class CounterFeatureTests: XCTestCase {
             $0.count = 0
         }
     }
+    
+    func testTimer() async {
+        let store = TestStore(initialState: CounterFeature.State()) {
+            CounterFeature()
+        }
+        
+        await store.send(.timerButtonTapped) {
+            $0.isTimerRunning = true
+        }
+        
+        await store.receive(\.timerTick) {
+            $0.count = 1
+        }
+        
+        await store.send(.timerButtonTapped) {
+            $0.isTimerRunning = false
+        }
+    }
 }
